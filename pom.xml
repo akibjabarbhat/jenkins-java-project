@@ -32,9 +32,7 @@
 	</dependencies>
 
 <build>
-    <finalName>tn.talan.selenium</finalName>
-
-    <plugins>
+ <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
