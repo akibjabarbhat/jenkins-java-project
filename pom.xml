@@ -28,6 +28,15 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+    <plugins>
+      <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.1.0</version>
+    </plugins>
+
+  </build>
 	
 	<distributionManagement>
 		 <snapshotRepository>
